@@ -1,0 +1,12 @@
+#!ruby
+
+require 'rubygems'
+require 'ftools'
+
+source = "#{File.expand_path(File.dirname(__FILE__))}/../lib/converters.rb"
+destination = "#{Dir.pwd}/scripts"
+
+Dir.mkdir(destination) unless File.directory?(destination)
+File.copy(source, destination)
+
+puts "File '#{source}' copied into '#{destination}' folder."

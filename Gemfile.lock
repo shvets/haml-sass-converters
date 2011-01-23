@@ -1,0 +1,36 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    abstract (1.0.0)
+    bouncy-castle-java (1.5.0145.2)
+    erubis (2.6.6)
+      abstract (>= 1.0.0)
+    gemcutter (0.6.1)
+    git (1.2.5)
+    haml (3.0.24)
+    hpricot (0.8.3-java)
+    jeweler (1.5.2)
+      bundler (~> 1.0.0)
+      git (>= 1.2.5)
+      rake
+    jruby-openssl (0.7.3)
+      bouncy-castle-java
+    rake (0.8.7)
+    ruby_parser (2.0.5)
+      sexp_processor (~> 3.0)
+    sexp_processor (3.0.5)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  abstract (= 1.0.0)
+  bundler
+  erubis (= 2.6.6)
+  gemcutter
+  haml (= 3.0.24)
+  hpricot (= 0.8.3)
+  jeweler
+  jruby-openssl
+  ruby_parser (= 2.0.5)
+  sexp_processor (= 3.0.5)

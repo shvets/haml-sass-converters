@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="GemRequirementsHolder" version="3">
+    <requirement>
+      <requirement>
+        <dependency name="abstract" version="1.0.0" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="erubis" version="2.6.6" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="gemcutter" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="haml" version="3.0.24" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="hpricot" version="0.8.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="jeweler" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="jruby-openssl" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="ruby_parser" version="2.0.5" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="sexp_processor" version="3.0.5" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rake (v0.8.7, /Users/oshvets/.rvm/gems/jruby-1.5.6@global/gems/rake-0.8.7)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] bundler (v1.0.9, /Users/oshvets/.rvm/gems/jruby-1.5.6@global/gems/bundler-1.0.9)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] erubis (v2.6.6, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/erubis-2.6.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] jruby-openssl (v0.7.3, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/jruby-openssl-0.7.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] jeweler (v1.5.2, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/jeweler-1.5.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] abstract (v1.0.0, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/abstract-1.0.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] haml (v3.0.24, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/haml-3.0.24)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] ruby_parser (v2.0.5, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/ruby_parser-2.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] sexp_processor (v3.0.5, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/sexp_processor-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] gemcutter (v0.6.1, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/gemcutter-0.6.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] hpricot (v0.8.3, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/hpricot-0.8.3-java)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] sexp_processor (v3.0.5, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/sexp_processor-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] bouncy-castle-java (v1.5.0145.2, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/bouncy-castle-java-1.5.0145.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] git (v1.2.5, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/git-1.2.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] abstract (v1.0.0, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/abstract-1.0.0)" level="application" />
+  </component>
+</module>
+
