@@ -1,15 +1,5 @@
 include Java
 
-require "haml"
-require "haml/html"
-require "sass/css"
-
-require 'default_scripts_groups'
-require 'editor_action_helper'
-require 'action_group_helper'
-
-load_required_gems
-
 def load_required_gems
   jruby_home = "#{ENV['HOME']}/.rvm/gems/jruby-1.5.6@haml-sass-converters"
 
@@ -22,6 +12,16 @@ def load_required_gems
   $: << "#{jruby_home}/gems/sexp_processor-3.0.5/lib"
   $: << "#{jruby_home}/gems/ruby_parser-2.0.5/lib"
 end
+
+load_required_gems
+
+require "haml"
+require "haml/html"
+require "sass/css"
+
+require 'default_scripts_groups'
+require 'editor_action_helper'
+require 'action_group_helper'
 
 class Converter
   def self.convert_selection editor

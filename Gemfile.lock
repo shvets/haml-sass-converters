@@ -25,7 +25,6 @@ PLATFORMS
 
 DEPENDENCIES
   abstract (= 1.0.0)
-  bundler
   erubis (= 2.6.6)
   gemcutter
   haml (= 3.0.24)

@@ -6,15 +6,19 @@
 
 > rvm install jruby-1.5.6
 > rvm use jruby
-> rvm gemset haml-sass-converters create
-> rvm use jruby@haml-sass-converters
 
-We are not going to use this version of JRuby - RubyMine already has bundled version of it. We need to install it in
-order to collect all required for this plugin gems.
+We are not going to use this version of JRuby - RubyMine already has bundled version of it.
+We need to install it in order to collect all required for this plugin gems.
 
-2. Install it as a gem and run install script in your project's root in order to copy script:
+2. Create and use 'haml-sass-converters' gemset:
+> rvm use jruby@haml-sass-converters --create
+
+3. Install gem:
 
 > gem i haml-sass-converters
+
+4. Run install script in your project's root (or some other location) in order to copy script:
+
 > cd <your-project-root>
 > haml-sass-converters-install
 

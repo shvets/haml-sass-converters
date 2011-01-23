@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a110fdc5-570f-40e4-b302-30587ae2cecd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VERSION" afterPath="$PROJECT_DIR$/VERSION" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/converters.rb" afterPath="$PROJECT_DIR$/lib/converters.rb" />
     </list>
     <ignored path="haml-sass-converters.iws" />
@@ -26,10 +28,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" showNonProject="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+            <state line="38" column="7" selection-start="1253" selection-end="1264" vertical-scroll-proportion="0.5824801">
               <folding />
             </state>
           </provider>
@@ -38,13 +40,13 @@
       <file leaf-file-name="converters.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/converters.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="57" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
+            <state line="13" column="3" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VERSION" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="VERSION" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VERSION">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
@@ -65,7 +67,7 @@
       <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,11 +117,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/bin/haml-sass-converters-install" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/lib/converters.rb" />
+        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/VERSION" />
       </list>
     </option>
@@ -151,6 +153,7 @@
     </navigator>
     <panes>
       <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,14 +202,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
@@ -333,14 +335,16 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/converters.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="3" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="3" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/haml-sass-converters-install">
@@ -348,23 +352,21 @@
         <state line="11" column="60" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/converters.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="57" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VERSION">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="7" selection-start="1253" selection-end="1264" vertical-scroll-proportion="0.5824801">
           <folding />
         </state>
       </provider>
