@@ -5,12 +5,11 @@
 1. Install jruby:
 
 > rvm install jruby-1.5.6
-> rvm use jruby
 
-We are not going to use this version of JRuby - RubyMine already has bundled version of it.
+We are not going to use this version of JRuby - RubyMine has already bundled version of it.
 We need to install it in order to collect all required for this plugin gems.
 
-2. Create and use 'haml-sass-converters' gemset:
+2. Create and use 'haml-sass-converters' gemset under jruby:
 > rvm use jruby@haml-sass-converters --create
 
 3. Install gem:
@@ -19,14 +18,14 @@ We need to install it in order to collect all required for this plugin gems.
 
 4. Run install script in your project's root (or some other location) in order to copy script:
 
-> cd <your-project-root>
+> cd <your-project-root-or-other-location-for-rubymine-scripts>
 > haml-sass-converters-install
 
 New "scripts" folder will be created with "converters.rb" as a plugin.
 
-3. Go to "File|Setting|Extensions" and add "scripts" folder as new "Script Folder".
+5. Go to "File|Setting|Extensions" and add "scripts" folder as new "Script Folder".
 
-4. Restart RubyMine. After restarting IDE will have new "Css" group under "Tools|Extensions" and new actions:
+6. Restart RubyMine. After restarting IDE will have new "Css" group under "Tools|Extensions" and new actions:
 - convert Html to Haml;
 - convert CSS to SASS;
 
