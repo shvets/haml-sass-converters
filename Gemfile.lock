@@ -16,8 +16,14 @@ GEM
     jruby-openssl (0.7.3)
       bouncy-castle-java
     rake (0.8.7)
+    rparsec (1.0)
+    ruby2ruby (1.2.5)
+      ruby_parser (~> 2.0)
+      sexp_processor (~> 3.0)
     ruby_parser (2.0.5)
       sexp_processor (~> 3.0)
+    sexp (0.2.1)
+      rparsec (>= 1.0)
     sexp_processor (3.0.5)
 
 PLATFORMS
@@ -31,5 +37,8 @@ DEPENDENCIES
   hpricot (= 0.8.3)
   jeweler
   jruby-openssl
+  rparsec (= 1.0)
+  ruby2ruby (= 1.2.5)
   ruby_parser (= 2.0.5)
+  sexp (= 0.2.1)
   sexp_processor (= 3.0.5)

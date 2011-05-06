@@ -45,7 +45,25 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="rparsec" version="1.0" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="ruby2ruby" version="1.2.5" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="ruby_parser" version="2.0.5" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="sexp" version="0.2.1" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
     </requirement>
@@ -57,7 +75,9 @@
     </requirement>
   </component>
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.bundle" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rake (v0.8.7, /Users/oshvets/.rvm/gems/jruby-1.5.6@global/gems/rake-0.8.7)" level="application" />
@@ -75,6 +95,9 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] bouncy-castle-java (v1.5.0145.2, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/bouncy-castle-java-1.5.0145.2)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] git (v1.2.5, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/git-1.2.5)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] abstract (v1.0.0, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/abstract-1.0.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] sexp (v0.2.1, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/sexp-0.2.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] ruby2ruby (v1.2.5, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/ruby2ruby-1.2.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rparsec (v1.0, /Users/oshvets/.rvm/gems/jruby-1.5.6@haml-sass-converters/gems/rparsec-1.0)" level="application" />
   </component>
 </module>
 

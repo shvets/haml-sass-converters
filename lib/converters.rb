@@ -1,7 +1,7 @@
 include Java
 
 def load_required_gems
-  jruby_home = "#{ENV['HOME']}/.rvm/gems/jruby-1.5.6@haml-sass-converters"
+  jruby_home = "#{ENV['HOME']}/.rvm/gems/jruby-1.6.0@haml-sass-converters"
 
   $: << "#{jruby_home}/gems"
 
